@@ -1,0 +1,195 @@
+@media (min-width:320px) and (max-width:575.98px) {
+    /* navbar start */
+
+    .nav {
+        position: relative;
+    }
+
+    .nav button {
+        position: absolute;
+        right: 5px;
+        top: 22px;
+    }
+
+    .nav button i {
+        color: #55d506;
+        height: 35px;
+        width: 35px;
+        line-height: 30px !important;
+        border-radius: 5px;
+        text-align: center;
+        border: 2px solid #55d506;
+        line-height: 20px;
+
+    }
+
+    .navbar-brand {
+        margin-left: 3px;
+    }
+
+    .navbar-brand h4 {
+        margin-left: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0 0 0 .0;
+    }
+
+    nav ul {
+        background: #222222;
+        text-align: center;
+        border-top: 1px solid #55d506;
+        padding: 20px 0 !important;
+    }
+
+    #main_menu ul li a {
+        padding: 10px 0 !important;
+    }
+
+    nav ul li {
+        margin: 0 !important;
+    }
+
+    /* navbar end ***/
+
+    /* banner start */
+    #banner {
+        height: 800px;
+    }
+
+    .banner {
+        height: 800px;
+        margin-top: 50px;
+        width: 70%;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner-p {
+
+        margin: 30px 0 0 0;
+    }
+
+    .banner-p p {
+        font-size: 20px;
+    }
+
+    .banner-btn button {
+        width: 85%;
+        letter-spacing: 5px;
+    }
+
+    /* banner end ***/
+    /* about-me start */
+    #about-me {
+        padding: 0 0 50px 0;
+        margin: 0 0 50px 0;
+    }
+
+    .about-me-header h2 {
+        font-size: 40px;
+    }
+    .about-me-text h2{
+        font-size: 30px
+    }
+    .about-me-p p {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .about-me-row {
+        grid-template-columns: none;
+    }
+
+    .about-me-text button {
+        width: 75%;
+        margin: 0 0px 1px 13%;
+    }
+
+    .about-me-text h2::after {
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .about-me-skils {
+        margin-top: -100px;
+    }
+    
+
+    .about-me-skils h2 {
+        margin: 10% 0 0 25%;
+        font-size: 35px;
+    }
+
+
+    /* about-me end ***/
+    /* portfolio start */
+    #portfolio{
+        padding: 100px 0 0 0;
+    }
+    .project-1{
+        grid-template-columns: none;
+        grid-gap: 0;
+    }
+    .project-1-img{
+        margin: 0 0 30px 0;
+    }
+    .project-1-text button{
+        width: 60%;
+        margin: 0 0 0 20%;
+    }
+    .about-me-header{
+        padding: 0 0 20px 0;
+    }
+    .project-1-text h4{
+        text-align: center;
+        
+    }
+    .project-1-text h4::after{
+        left: 50%;
+    }
+    /* portfolio end ***/
+    /* contact start */
+    /* contact end ***/
+    /* contact start */
+    /* contact end ***/
+
+    .contact-mails {
+        width: 100%;
+    }
+    .form button{
+        width: 40%;
+    }
+
+
+    /* footer start */
+    .footer {
+        display: inline-block;
+    }
+
+    .footer-text {
+        width: 100%;
+    }
+    .sns-link {
+        justify-content: center;
+    }
+    .footer-sns {
+        width: 100%;
+    }
+    .footer-sns h2{
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    /* footer end ***/
+
+
+
+
+
+
+
+}
